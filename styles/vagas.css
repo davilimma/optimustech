@@ -1,0 +1,67 @@
+.vagas{
+    text-align: center;
+    margin: 10% 5% 5% 5%;
+}
+
+.vagas__titulo{
+    color: var(--cor-tercearia);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.vagas__subtitulo{
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--cor-primaria);
+    margin: 0.8em 0;
+}
+
+.vagas__texto{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cor-secundaria);
+}
+
+.vagas__imagem{
+    margin-top: 4em;
+}
+
+.oportunidades{
+    margin: 0 25%;
+}
+
+.oportunidades__titulo{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-primaria);
+    margin: 4em 0 2em 0;
+}
+
+.oportunidades__card{
+    border: 1px solid var(--cor-borda);
+    border-radius: 16px;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.oportunidades__subtitulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-primaria);
+    margin: 0.5em 0;
+}
+
+.oportunidades__lista{
+    display: flex;
+    margin: 2.5em 0 1em 0;
+}
+
+.oportunidades__item{
+    font-weight: 500;
+    color: var(--cor-secundaria);
+    margin-right: 1em;
+}
