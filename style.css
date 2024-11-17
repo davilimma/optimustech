@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
-@import url("styles/header.css");
-@import url("styles/about.css");
-@import url("styles/vagas.css");
-@import url("styles/comentarios.css");
-@import url("styles/rodape.css");
+@import url("styles/headeroptech.css");
+@import url("styles/aboutoptech.css");
+@import url("styles/vagasoptech.css");
+@import url("styles/comentariosoptech.css");
+@import url("styles/rodapeoptech.css");
 
 :root{
     --branco: #ffffff;
