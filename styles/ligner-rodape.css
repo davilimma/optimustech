@@ -1,0 +1,13 @@
+.contato {
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    background-color: #121212;
+    width: 100%;
+}
+
+.contato p {
+    font-family: "Fjord One", serif;
+    font-size: 17px;
+    color: #F5F5F5;
+}

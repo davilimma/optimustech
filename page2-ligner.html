@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ligner</title>
+    <link rel="stylesheet" href="ligner-style.css">
+</head>
+
+<body class="corpo">
+
+    <header style="background-image: url(img/ligner-banner.jpg)">
+
+        <section class="inicio">
+            <div class="inicio__logo">
+                <img src="img/ligner-logo.png" alt="Logo do Site" width="100" height="50">
+                <h3>Ligner</h3>
+            </div>
+
+            <nav class="botoes">
+                <button class="botao" onclick="document.getElementById('sobre-nos').scrollIntoView();">Sobre Nós</button>
+                <button class="botao" onclick="document.getElementById('avaliacoes').scrollIntoView();">Avaliações</button>
+                <button class="botao" onclick="document.getElementById('contato').scrollIntoView();">Contato</button>
+            </nav>
+
+        </section>
+
+        <section class="banner">
+            <div class="banner__texto">
+                <h1>Ligner</h1>
+                <p>Onde damos transparência aos seus sonhos!</p>
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+        <br id="sobre-nos">
+        <section class="apresentacao">
+
+            <details class="section__perguntas">
+                <summary class="menu">Selecione o assunto:</summary>
+                <ol>
+                    <li class="menu__pergunta" id="pergunta1">Quem somos?</li>
+                    <li class="menu__pergunta" id="pergunta2">Como tudo começou?</li>
+                    <li class="menu__pergunta" id="pergunta3">Quais os nossos primeiros desafios?</li> 
+                    <li class="menu__pergunta" id="pergunta4">Como permanecemos?</li>
+                    <li class="menu__pergunta" id="pergunta5">O que queremos para o futuro?</li>
+                </ol>
+            </details>
+
+            <section class="section__descricao">
+                <div>
+                    <h2>Conheça mais sobre nossa história!</h2><br>
+                    <p id="resultado">Clique em uma das opções do menu ao lado para obter mais detalhes.</p>
+                </div>
+            </section>
+
+        </section>
+
+        <br>
+        <br id="avaliacoes">
+        <br>
+        
+        <section class="avaliacoes">
+
+            <div class="chamada">
+                <h3 class="chamada__titulo">Avaliações</h3>
+                <p class="chamada__subtitulo">Vejam o que falam de nossos serviços:</p>
+            </div>
+
+            <div class="container">
+
+                <div class="cards">
+                    <img class="imagem" src="img/ligner-profissionala.jpg" width="100" height="100">
+                    <h3 class="nome">Marcos - Studio Impress</h3>
+                    <p class="comentario">
+                        "Tive uma ótima experiência com a equipe. Desde o começo, eles foram profissionais e ouviram minhas necessidades com atenção. O trabalho final superou minhas expectativas, com um design impecável e entrega pontual. Certamente voltarei para novos projetos e recomendo a empresa para quem busca qualidade!" </p>
+                </div>
+
+                <div class="cards">
+                    <img class="imagem" src="img/ligner-profissionalb.jpg" width="100" height="100">
+                    <h3 class="nome">Clarice - Evo Solutions</h3>
+                    <p class="comentario">
+                        "A equipe de design gráfico foi excelente. Captaram perfeitamente o que eu precisava e trouxeram ideias inovadoras. A comunicação foi clara, e o design final ficou impecável, refletindo a identidade da minha marca. O trabalho foi entregue no prazo e com muita qualidade. Sem dúvida, continuarei a parceria para novos projetos!"</p>
+                </div>
+
+                <div class="cards">
+                    <img class="imagem" src="img/ligner-profissionalc.jpg" width="100" height="100">
+                    <h3 class="nome">Beatriz - Unique</h3>
+                    <p class="comentario">
+                        "Fiquei muito satisfeita com o trabalho realizado. A equipe foi muito atenciosa e conseguiu entender exatamente o que eu queria. O design ficou excelente, refletindo a visão da minha marca. A entrega foi pontual e o processo de comunicação foi bem eficiente. Com certeza, contratarei novamente para futuros projetos!"</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="arte">
+            <img src="img/ligner-arte floral.jpg" alt="Imagem centralizada">
+        </div>
+        
+    </main>
+    <script src="ligner-script.js"></script>
+    
+    <section id="contato" class="contato">
+        <p>Em caso de dúvidas, reclamações ou sugestões, pedimos que entrem em contato pelos meios abaixo:</p><br>
+        <p>
+        Email:nomedoemail123@gmail.com <br>
+        Telefone: (00) 0000-0000
+        </p>
+    </section>
+
+</body>
+
+</html>
